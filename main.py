@@ -2,8 +2,8 @@ from ultralytics import YOLO
 import cv2
 import cvzone
 
-cap = cv2.VideoCapture("./gallery/cars.mp4")
-model = YOLO('./Yolo-Weights/yolov8n.pt')
+cap = cv2.VideoCapture("cars.mp4")
+model = YOLO('yolov8n.pt')
 names = model.names
 
 #Drawing line
